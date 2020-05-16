@@ -7,6 +7,7 @@ Colors every pixel in blue.
 // shader.fsh
 void main() {
     // colors everything blue with 100% opacity
+    // RBG(0,0,1) = blue
     vec3 color = vec3(0.0, 0.0, 1.0);
     float alpha = 1.0;
     
