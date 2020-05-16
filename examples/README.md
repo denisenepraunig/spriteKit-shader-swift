@@ -1,8 +1,17 @@
 # Examples
 ## Everything blue
 Colors every pixel in blue.
+
+![Everything blue](./images/blue.png)
 ```GLSL
-// TODO
+// shader.fsh
+void main() {
+    // colors everything blue with 100% opacity
+    vec3 color = vec3(0.0, 0.0, 1.0);
+    float alpha = 1.0;
+    
+    gl_FragColor = vec4(color, alpha);
+}
 ```
 
 ## Black and white gradient
@@ -11,7 +20,7 @@ A black and white gradient from left to right using the ```position.x``` coordin
 ![Black and white gradient](./images/black-white-gradient.png)
 
 ```GLSL
-// shader code
+// shader.fsh
 void main() {
   // u, v position - 0,0 is in the bottom left
   vec2 position = v_tex_coord;
