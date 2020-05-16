@@ -1,7 +1,7 @@
 # Hello World
-Getting into fragment shaders with SpriteKit and Swift.
-
 This example renders a red color sprite (SKSpriteNode) in blue. The color sprite was created inside *GameScene.sks*.
+
+## Code
 
 ```Swift
 // GameScene.swift
@@ -28,3 +28,6 @@ void main() {
     gl_FragColor = vec4(0.0, 0.0, 1.0, 1.0);
 }
 ```
+
+## Result
+![hello world shader spritekit](./images/hello-world-shader-spritekit.png)
