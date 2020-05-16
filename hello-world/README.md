@@ -1,6 +1,8 @@
 # Hello World
 This example renders a red color sprite (SKSpriteNode) in blue. The color sprite was created inside *GameScene.sks*.
 
+![GameScene.sks red color sprite](./images/game-scene-sks.png)
+
 ## Code
 
 ```Swift
