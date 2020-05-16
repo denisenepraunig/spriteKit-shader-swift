@@ -10,7 +10,7 @@ The color sprite was created inside **GameScene.sks**.
 ![GameScene.sks red color sprite](./images/game-scene-sks.png)
 
 ## Code
-### Scene Coding
+### Scene
 ```Swift
 // GameScene.swift
 import SpriteKit
@@ -27,7 +27,7 @@ class GameScene: SKScene {
     }
 }
 ````
-### Shader coding
+### Shader
 The shader coding is the following:
 ```GLSL
 // shader-blue.fsh
