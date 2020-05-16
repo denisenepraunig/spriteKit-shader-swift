@@ -7,7 +7,7 @@ Colors every pixel in blue.
 // shader.fsh
 void main() {
     // colors everything blue with 100% opacity
-    // RBG(0,0,1) = blue
+    // RBG(0.0, 0.0, 1.0) = blue
     vec3 color = vec3(0.0, 0.0, 1.0);
     float alpha = 1.0;
     
@@ -27,7 +27,7 @@ void main() {
   vec2 position = v_tex_coord;
 
   // creates a black-white gradient from left to right
-  // RGB (0,0,0) is black, (1,1,1) is white, 
+  // RGB (0.0, 0.0, 0.0) is black, (1.0, 1.0, 1.0) is white, 
   vec3 color = vec3(position.x);
   float alpha = 1.0;
 
