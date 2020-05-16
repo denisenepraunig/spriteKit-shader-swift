@@ -1,10 +1,16 @@
 # Hello World
-This example renders a red color sprite (SKSpriteNode) in blue. The color sprite was created inside **GameScene.sks**.
+This example renders a red color sprite (SKSpriteNode) in blue.
+
+## Result
+![hello world shader spritekit](./images/hello-world-shader-spritekit.png)
+
+## GameScene Setup
+The color sprite was created inside **GameScene.sks**.
 
 ![GameScene.sks red color sprite](./images/game-scene-sks.png)
 
 ## Code
-
+### Scene Coding
 ```Swift
 // GameScene.swift
 import SpriteKit
@@ -21,7 +27,7 @@ class GameScene: SKScene {
     }
 }
 ````
-
+### Shader coding
 The shader coding is the following:
 ```GLSL
 // shader-blue.fsh
@@ -31,5 +37,4 @@ void main() {
 }
 ```
 
-## Result
-![hello world shader spritekit](./images/hello-world-shader-spritekit.png)
+
