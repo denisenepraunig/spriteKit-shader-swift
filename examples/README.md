@@ -8,7 +8,7 @@ Colors every pixel in blue.
 ## Black and white gradient
 A black and white gradient from left to right using the ```position.x``` coordinate. For a gradient from top to bottom the ```position.y``` coordinate can be used.
 
-// image
+![Black and white gradient](./images/black-white-gradient.png)
 
 ```GLSL
 // shader code
